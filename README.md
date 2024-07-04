@@ -1,2 +1,2 @@
 # js_game
-simple game onjavascript
+simple game on javascript
