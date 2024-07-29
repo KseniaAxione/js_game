@@ -1,0 +1,38 @@
+name: js_game
+id: 'ari:cloud:compass:13ccdfa1-fb5d-41a4-9fd5-2c23ef1d97ea:component/dd5a9e2b-9095-4ab0-adb9-13a57e0ef868/e32191e8-2a31-4c7f-81bb-b36bff9af6bb'
+description: >-
+  Ce projet est une version fidèle du célèbre jeu intégré "Chrome Dino", également connu sous le nom de "T-Rex Game" de Google Chrome. Ce jeu apparaît
+  lorsque l'utilisateur essaie d'accéder à une page web alors que le navigateur est hors ligne. Le jeu consiste à contrôler un dinosaure qui doit
+  sauter par-dessus des obstacles pour éviter de les toucher et ainsi gagner des points au fil du temps.
+configVersion: 1
+typeId: WEBSITE
+ownerId: 'ari:cloud:identity::team/83726123-5dc1-4d9c-84cb-bc75adc69bac'
+fields:
+  tier: 4
+links:
+  - name: ''
+    type: REPOSITORY
+    url: 'https://github.com/KseniaAxione/js_game'
+  - name: Sentry
+    type: DASHBOARD
+    url: 'https://axione-4r.sentry.io/projects/javascript/?project=4507544044175440'
+  - name: README
+    type: DOCUMENT
+    url: 'https://github.com/KseniaAxione/js_game/blob/main/README.md'
+relationships: {}
+labels:
+  - 'language:js'
+  - 'source:github'
+customFields:
+  - name: CI/CD
+    type: text
+    value: null
+  - name: DAT
+    type: text
+    value: null
+  - name: Fonctionnel
+    type: text
+    value: null
+
+# En savoir plus sur le formatage compass.yml :
+# https://go.atlassian.com/compass-yml-format
